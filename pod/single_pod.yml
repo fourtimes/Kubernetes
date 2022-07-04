@@ -9,7 +9,3 @@ spec:
       ports:
         - containerPort: 80
 
-
-          git config --global user.email "dodonotdos@gmail.com"
-
-            git config --global user.name "dodonotdos"
