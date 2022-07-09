@@ -15,6 +15,6 @@ that facilitates both declarative configuration and automation.
 ![image](https://user-images.githubusercontent.com/91359308/174522155-d5f2fd98-a38b-4737-af7c-d8c217fa3de1.png)
 
 
-### Kubectl
+# Kubectl
 
 ![image](https://user-images.githubusercontent.com/91359308/178105507-117dfca1-3c07-4515-b009-9957cc102208.png)
