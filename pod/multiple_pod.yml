@@ -1,1 +1,19 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dodo
+  namespace: dodo
+  labels:
+    group: one
+spec:
+  containers:
+    - name: nginxcontainer
+      image: nginx
+      ports:
+        - containerPort: 80
+    - name: httpdcontainer
+      image: httpd
+      ports:
+        - containerPort: 80
 
