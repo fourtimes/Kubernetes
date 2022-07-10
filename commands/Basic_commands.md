@@ -26,7 +26,7 @@ kubectl get po -n (namespace name)
  ```
  kubectl get po -A --show-labels
 ```
-**Get the specified namespace pod**
+**Get the specified lables of the pod**
 ```
 kubectl get po -l (lables-name and keyword)-A
  ```
