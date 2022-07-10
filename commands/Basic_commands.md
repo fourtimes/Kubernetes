@@ -14,6 +14,10 @@ kubectl get po
 ```
 kubectl get po -n (namespace name)
 ```
+**view the pod entire details**
+```
+kubectl get po  -n (namespace name) -o wide
+```
 **Describe the pod**
 ```
  kubectl describe po (podname) -n (namespace name)
