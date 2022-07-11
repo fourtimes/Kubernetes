@@ -36,7 +36,6 @@ kubectl get po  -n (namespace name) -o wide
 ```
 kubectl get po -l (lables-name and keyword)-A
  ```
-## Service Basic Commands
 **To view all the details of the namespace**
 ```
 kubectl get all -n fourtimes
@@ -44,4 +43,12 @@ kubectl get all -n fourtimes
 **To view the pod, service, endpoint details with specified namespace**
 ```
 k get po,svc,ep -n (namespace) -o wide
+```
+**Port forwarding**
+```
+kubectl port-forward svc/svc-name -n (namespace) hostPort:containerPort --address
+
+ex:
+---
+k port-forward svc/fourtimes-po -n fourtimes 8080:80
 ```
