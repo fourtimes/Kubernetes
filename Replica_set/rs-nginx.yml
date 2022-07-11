@@ -1,0 +1,40 @@
+---
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: dodo-po
+  namespace: dodo
+  labels:
+    group: one
+    project: google
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: nginx-server
+  template:
+    metadata:
+      name: dodo-po
+      labels:
+        app: nginx-server
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+          - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dodo-po
+  namespace: dodo
+  labels:
+    group: one
+    project: google
+spec:
+  type: ClusterIP
+  selector:
+    app: nginx-server
+  ports:
+  - port: 80
