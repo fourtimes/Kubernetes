@@ -17,5 +17,5 @@ that facilitates both declarative configuration and automation.
 
 ![image](https://user-images.githubusercontent.com/91359308/178105507-117dfca1-3c07-4515-b009-9957cc102208.png)
 
+![image](https://user-images.githubusercontent.com/91359308/178979823-4ad4ac68-ae4d-4582-9839-95c10a4a7e61.png)
 
-![image](https://user-images.githubusercontent.com/91359308/178979629-9ae80f85-8954-43a9-b645-bf2a682f567c.png)
