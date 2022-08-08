@@ -12,10 +12,27 @@ that facilitates both declarative configuration and automation.
 4. Automated Deployment
 5. Configuration Management
 ```
-![image](https://user-images.githubusercontent.com/91359308/174522155-d5f2fd98-a38b-4737-af7c-d8c217fa3de1.png)
 
+![image](https://user-images.githubusercontent.com/91359308/183442082-f3747b99-2b30-4d72-84c0-ef2871b6c7e9.png)
 
-![image](https://user-images.githubusercontent.com/91359308/178105507-117dfca1-3c07-4515-b009-9957cc102208.png)
+```
+Note:
+-----
+
+API server - Interact with API
+Schedulaer - It helps to find out where the pods are running, which pods are there, and what the status of the pods is.
+Controller Manager - Controls tasks running on a Kubernetes cluster.
+etcd - It is like a database. Store the information.
+Kubelet -
+Kube Proxy - 
+Docker -
+Kubectl -
+User Interface - 
+```
+
+![image](https://user-images.githubusercontent.com/91359308/183442537-ee86dc92-e168-403f-9cfe-3f43949757ec.png)
 
 ![image](https://user-images.githubusercontent.com/91359308/178979823-4ad4ac68-ae4d-4582-9839-95c10a4a7e61.png)
+
+![image](https://user-images.githubusercontent.com/91359308/178105507-117dfca1-3c07-4515-b009-9957cc102208.png)
 
