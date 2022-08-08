@@ -23,11 +23,11 @@ API server - Interact with API
 Schedulaer - It helps to find out where the pods are running, which pods are there, and what the status of the pods is.
 Controller Manager - Controls tasks running on a Kubernetes cluster.
 etcd - It is like a database. Store the information.
-Kubelet -
-Kube Proxy - 
-Docker -
-Kubectl -
-User Interface - 
+Kubelet - To share the information worker node to master node.
+Kube Proxy - Uses for Port Forwarding and Load Balancing and Network related communications.
+Docker - Container Running Platform.
+Kubectl - We can manage the kubernetes cluster via command line.
+User Interface - Can work with users.
 ```
 
 ![image](https://user-images.githubusercontent.com/91359308/183442537-ee86dc92-e168-403f-9cfe-3f43949757ec.png)
