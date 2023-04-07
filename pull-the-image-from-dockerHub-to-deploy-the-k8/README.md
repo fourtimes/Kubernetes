@@ -13,7 +13,7 @@ minikube ip
 Then, go to the browser use it the below details
 
 ```
-minikube ip:nodePort
+minikubeIp:nodePort
 
 ex:
 http://192.168.49.2:31515/
