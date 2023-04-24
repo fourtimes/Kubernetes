@@ -45,3 +45,8 @@ spec:
     nodePort: 32515
   selector:
     app: reactjs
+    
+    
+    
+# After successfully running the pods, we have to use the below command on the browser
+# minikube ip:32515
