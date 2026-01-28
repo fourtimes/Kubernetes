@@ -18,19 +18,14 @@ that facilitates both declarative configuration and automation.
 ![image](https://user-images.githubusercontent.com/91359308/207570607-05e02a51-fb42-4165-9eae-11bde2fe3bea.png)
 
 
-```
+```sh
 Note:
 -----
 
-API server         - Interact with API
-Schedulaer         - It helps to find out where the pods are running, which pods are there, and what the status of the pods is.
-Controller Manager - Controls tasks running on a Kubernetes cluster.
-etcd               - It is like a database. Store the information.
-Kubelet            - To share the information worker node to master node. Makes sure that containers are healthy and running within their associated pod.
-Kube Proxy         - Uses for Port Forwarding and Load Balancing and Network related communications.
-Docker             - Container Running Platform.
-Kubectl            - We can manage the kubernetes cluster via command line.
-User Interface     - Can work with users.
+API Server         - Handles all API requests to the cluster.
+Scheduler          - Decides where pods should run.
+Controller Manager - Ensures the desired state of the cluster.
+etcd               - Key-value database that stores cluster data.
 ```
 
 ![image](https://user-images.githubusercontent.com/91359308/183442537-ee86dc92-e168-403f-9cfe-3f43949757ec.png)
